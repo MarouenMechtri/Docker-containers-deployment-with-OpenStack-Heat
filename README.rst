@@ -54,7 +54,7 @@ docker containers are lightweight as they  donâ€™t run OSes but share the hostâ€
 
 A docker container is also portable, it hosts the application and its dependencies and it is able
 to be deployed or relocated on any Linux server.
-https://raw.githubusercontent.com/MarouenMechtri/Docker-containers-deployment-with-OpenStack-Heat/master/images/docker-containers.png
+
 .. image:: https://raw.githubusercontent.com/MarouenMechtri/Docker-containers-deployment-with-OpenStack-Heat/master/images/docker-vs-hypervisor.jpg
 
 The Docker element that manages containers and deploys applications on them is called Docker Engine.
