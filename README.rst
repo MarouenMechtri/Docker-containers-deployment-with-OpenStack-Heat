@@ -24,7 +24,7 @@ Copyright (C) `Chaima Ghribi <https://www.linkedin.com/profile/view?id=53659267&
 .. contents::
 
 
-1. Overview
+1.Overview
 ============
 
 We’ve all heard about Docker and the immense amount a buzz around it from last year !
