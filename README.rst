@@ -65,8 +65,8 @@ members and you can ship and run it anywhere... It's really amazing :)
 
 It was a quick introduction to Docker ! Now, let's see how to use it with OpenStack ;) 
 
-OpenStack & Docker
-==================
+OpenStack and Docker
+====================
 
 Openstack can be easily enhanced by docker plugins. 
 Docker can be integrated into OpenStack Nova as a form of hypervisor (Containers used as VMs).
@@ -287,11 +287,11 @@ Now let's edit our template!
 	      host: {get_attr: [docker_server, networks, private, 0]}
 
 
-4.3. Deploy your stack
------------------------
+Deploy your stack
+-----------------
 
-4.3.1. Pre-deployment
-^^^^^^^^^^^^^^^^^^^^^^
+Pre-deployment
+^^^^^^^^^^^^^^
 
 * Create a simple credential file::
 
@@ -353,8 +353,8 @@ Now let's edit our template!
    nova-manage floating create --pool=nova --ip_range=192.168.100.100/28
    
 
-4.3.2. Create your stack
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Create your stack
+^^^^^^^^^^^^^^^^^
 
 * Create a stack from the template (file available `here <https://github.com/MarouenMechtri/Docker-containers-deployment-with-OpenStack-Heat/blob/master/docker%20templates/docker-stack.yml>`_)::
 
@@ -388,8 +388,8 @@ That's it! you can now play with your Docker containers ;)
 Please get back to us if you have any question. 
 
 
-5. License
-=========
+License
+=======
 Institut Mines Télécom - Télécom SudParis  
 
 Copyright (C) 2014  Authors
@@ -410,8 +410,8 @@ in compliance with the License. You may obtain a copy of the License at::
     limitations under the License.
 
 
-6. Contacts
-===========
+Contacts
+========
 
 Marouen Mechtri : marouen.mechtri@it-sudparis.eu
 
