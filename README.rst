@@ -96,8 +96,8 @@ But now you can enjoy docker on OpenStack with Flat-networking ;)
 
 .. image:: https://raw.githubusercontent.com/MarouenMechtri/Docker-containers-deployment-with-OpenStack-Heat/master/images/docker-plugin.jpg
 
-4.Deploy Docker containers with OpenStack Heat
-===============================================
+Deploy Docker containers with OpenStack Heat
+============================================
 
 Now that we have discussed about Docker and Heat, let's move to practice !
 We will show you how to install the Docker plugin, how to write your template and how to deploy it with Heat ;)
