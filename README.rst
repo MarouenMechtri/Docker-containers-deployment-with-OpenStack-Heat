@@ -54,8 +54,8 @@ docker containers are lightweight as they  donâ€™t run OSes but share the hostâ€
 
 A docker container is also portable, it hosts the application and its dependencies and it is able
 to be deployed or relocated on any Linux server.
-
-.. image:: https://raw.githubusercontent.com/MarouenMechtri/OpenStack-Heat-Installation/master/images/docker-vs-hypervisor.jpg
+https://raw.githubusercontent.com/MarouenMechtri/Docker-containers-deployment-with-OpenStack-Heat/master/images/docker-containers.png
+.. image:: https://raw.githubusercontent.com/MarouenMechtri/Docker-containers-deployment-with-OpenStack-Heat/master/images/docker-vs-hypervisor.jpg
 
 The Docker element that manages containers and deploys applications on them is called Docker Engine.
 
@@ -94,7 +94,7 @@ users using isolated neutron networks to deploy and test Docker!
 But now you can enjoy docker on OpenStack with Flat-networking ;)
   
 
-.. image:: https://raw.githubusercontent.com/MarouenMechtri/OpenStack-Heat-Installation/master/images/docker-plugin.jpg
+.. image:: https://raw.githubusercontent.com/MarouenMechtri/Docker-containers-deployment-with-OpenStack-Heat/master/images/docker-plugin.jpg
 
 4. Deploy Docker containers with OpenStack Heat
 ===============================================
@@ -356,7 +356,7 @@ Now let's edit our template!
 4.3.2. Create your stack
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Create a stack from the template (file available `here <https://github.com/MarouenMechtri/OpenStack-Heat-Installation/blob/master/heat%20templates/docker-stack.yml>`_)::
+* Create a stack from the template (file available `here <https://github.com/MarouenMechtri/Docker-containers-deployment-with-OpenStack-Heat/blob/master/docker%20templates/docker-stack.yml>`_)::
 
     source creds
 
@@ -372,7 +372,7 @@ It could take some minutes, so just wait ...
 
 Here is a snapshot of the Horizon dashboard interface after stack launching: 
 
-.. image:: https://raw.githubusercontent.com/MarouenMechtri/OpenStack-Heat-Installation/master/images/docker-stack.png
+.. image:: https://raw.githubusercontent.com/MarouenMechtri/Docker-containers-deployment-with-OpenStack-Heat/master/images/docker-stack.png
   
   
 * To check that your containers are created::
@@ -382,7 +382,7 @@ Here is a snapshot of the Horizon dashboard interface after stack launching:
     sudo docker -H :2375 ps 
   
   
-.. image:: https://raw.githubusercontent.com/MarouenMechtri/OpenStack-Heat-Installation/master/images/docker-containers.png
+.. image:: https://raw.githubusercontent.com/MarouenMechtri/Docker-containers-deployment-with-OpenStack-Heat/master/images/docker-containers.png
 
 That's it! you can now play with your Docker containers ;)
 Please get back to us if you have any question. 
