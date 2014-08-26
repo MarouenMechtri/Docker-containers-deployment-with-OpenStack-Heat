@@ -24,8 +24,8 @@ Copyright (C) `Chaima Ghribi <https://www.linkedin.com/profile/view?id=53659267&
 .. contents::
 
 
-1.Overview
-============
+Overview
+========
 
 We’ve all heard about Docker and the immense amount a buzz around it from last year !
 
@@ -42,8 +42,8 @@ All the steps of installation and deployment are described in details.
 Hope our step by step instructions are easy to follow, even for beginners.
 
 
-2. What Is Docker?
-==================
+What Is Docker?
+===============
 
 Docker is an open source project to automatically deploy applications into containers. 
 It commoditizes the well known LXC (Linux Container) solution that provides operating system
@@ -65,8 +65,8 @@ members and you can ship and run it anywhere... It's really amazing :)
 
 It was a quick introduction to Docker ! Now, let's see how to use it with OpenStack ;) 
 
-3. OpenStack & Docker
-======================
+OpenStack & Docker
+==================
 
 Openstack can be easily enhanced by docker plugins. 
 Docker can be integrated into OpenStack Nova as a form of hypervisor (Containers used as VMs).
@@ -103,8 +103,8 @@ Now that we have discussed about Docker and Heat, let's move to practice !
 We will show you how to install the Docker plugin, how to write your template and how to deploy it with Heat ;)
 
 
-4.1. Install the Docker Plugin 
---------------------------------
+Install the Docker Plugin 
+-------------------------
 
 * To get the Docker plugin, download the Heat folder available on GitHub::
 
@@ -156,8 +156,8 @@ We will show you how to install the Docker plugin, how to write your template an
     heat resource-type-list | grep Docker 
     
 
-4.2. Create your Heat template
--------------------------------
+Create your Heat template
+-------------------------
 
 Before editing the template, let's discuss a bit about the content and the resources we will define ;)
 
