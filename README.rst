@@ -324,7 +324,7 @@ Pre-deployment
       heat-config-script \
       -o fedora-software-config.qcow2
     glance image-create --disk-format qcow2 --container-format bare --name fedora-software-config < \
-    fedora-software-config.qcow2
+      fedora-software-config.qcow2
     
 * If you didn't created a key, use these commands::
 
