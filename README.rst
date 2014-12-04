@@ -312,20 +312,19 @@ Pre-deployment
     export PATH="${PWD}/dib-utils/bin:$PATH"
     export ELEMENTS_PATH=tripleo-image-elements/elements:heat-templates/hot/software-config/elements
     diskimage-builder/bin/disk-image-create vm \
-    edora selinux-permissive \
-    os-collect-config \
-    os-refresh-config \
-    os-apply-config \
-    heat-config-ansible \
-    heat-config-cfn-init \
-    heat-config-docker \
-    heat-config-puppet \
-    heat-config-salt \
-    heat-config-script \
-    -o fedora-software-config.qcow2
-    
-glance image-create --disk-format qcow2 --container-format bare --name fedora-software-config < \
-  fedora-software-config.qcow2
+      fedora selinux-permissive \
+      os-collect-config \
+      os-refresh-config \
+      os-apply-config \
+      heat-config-ansible \
+      heat-config-cfn-init \
+      heat-config-docker \
+      heat-config-puppet \
+      heat-config-salt \
+      heat-config-script \
+      -o fedora-software-config.qcow2
+    glance image-create --disk-format qcow2 --container-format bare --name fedora-software-config < \
+    fedora-software-config.qcow2
     
 * If you didn't created a key, use these commands::
 
